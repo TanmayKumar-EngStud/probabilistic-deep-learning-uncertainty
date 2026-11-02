@@ -1,0 +1,88 @@
+{
+  "mimo": [
+    {
+      "M": 1,
+      "accuracy": 0.9473333358764648,
+      "NLL": 0.1854575127363205,
+      "parameters": 23553,
+      "updates": 2000,
+      "total_inside": 0.15142396791456172,
+      "total_outside": 0.02459820774411625,
+      "disagreement_inside": 0.0,
+      "disagreement_outside": 0.0,
+      "low_outside_xy": [
+        -2.0,
+        -2.0
+      ],
+      "low_outside_entropy": -0.0,
+      "high_total_xy": [
+        0.0,
+        0.0
+      ],
+      "high_total": 1.0907180770009053,
+      "high_total_member_entropy": 1.0907180770009053,
+      "high_total_disagreement": 0.0,
+      "max_disagreement_xy": [
+        -2.0,
+        -2.0
+      ],
+      "max_disagreement": 0.0
+    },
+    {
+      "M": 4,
+      "accuracy": 0.9366666674613953,
+      "NLL": 0.185370072722435,
+      "parameters": 25812,
+      "updates": 2000,
+      "total_inside": 0.2979340172076862,
+      "total_outside": 0.2591095694001534,
+      "disagreement_inside": 0.10259180112314079,
+      "disagreement_outside": 0.22996337613144746,
+      "low_outside_xy": [
+        -1.649999976158142,
+        2.0
+      ],
+      "low_outside_entropy": 9.278538890096313e-23,
+      "high_total_xy": [
+        0.15000000596046448,
+        -0.5
+      ],
+      "high_total": 1.0939790426934732,
+      "high_total_member_entropy": 0.6115038414898175,
+      "high_total_disagreement": 0.4824752012036557,
+      "max_disagreement_xy": [
+        0.0,
+        -0.6000000238418579
+      ],
+      "max_disagreement": 0.7305977532500767
+    },
+    {
+      "M": 8,
+      "accuracy": 0.9073333144187927,
+      "NLL": 0.5293955206871033,
+      "parameters": 28824,
+      "updates": 2000,
+      "total_inside": 0.8668417853000486,
+      "total_outside": 0.8095194376078341,
+      "disagreement_inside": 0.24033173539267944,
+      "disagreement_outside": 0.4347555107174561,
+      "low_outside_xy": [
+        -1.100000023841858,
+        -0.25
+      ],
+      "low_outside_entropy": 0.4786796819528637,
+      "high_total_xy": [
+        0.550000011920929,
+        -1.899999976158142
+      ],
+      "high_total": 1.0984456574381096,
+      "high_total_member_entropy": 0.4614142254160595,
+      "high_total_disagreement": 0.6370314320220501,
+      "max_disagreement_xy": [
+        -0.800000011920929,
+        2.0
+      ],
+      "max_disagreement": 0.7150071869674721
+    }
+  ]
+}
