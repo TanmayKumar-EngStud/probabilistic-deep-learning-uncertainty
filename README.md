@@ -8,6 +8,23 @@ Ways to estimate how uncertain a neural network is, implemented from scratch in 
 
 ---
 
+## Table of Contents
+
+- [Contents](#contents)
+- [Concepts](#concepts)
+- [Architecture](#architecture)
+  - [Variational Inference (Bayes by Backprop)](#variational-inference-bayes-by-backprop)
+  - [Deep ensembles / MIMO / MNIST](#deep-ensembles--mimo--mnist)
+- [Results](#results)
+  - [1. Variational inference vs. deterministic and MLE models (`y = cos(x)`)](#1-variational-inference-vs-deterministic-and-mle-models-y--cosx)
+  - [2. Deep ensembles: regression (`y = x³`, 6 members)](#2-deep-ensembles-regression-y--x-6-members)
+  - [3. Deep ensembles vs. MIMO: spiral classification](#3-deep-ensembles-vs-mimo-spiral-classification)
+  - [4. MNIST: single model vs. deep ensemble](#4-mnist-single-model-vs-deep-ensemble)
+- [Running](#running)
+- [References](#references)
+
+---
+
 ## Contents
 
 | Notebook | Topic |
