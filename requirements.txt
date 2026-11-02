@@ -1,0 +1,5 @@
+jax==0.7.2
+numpy
+matplotlib
+torch       # MNIST download only
+torchvision # MNIST download only

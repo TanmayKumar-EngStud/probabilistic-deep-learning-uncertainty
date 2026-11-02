@@ -1,0 +1,266 @@
+{
+  "regression": [
+    {
+      "likelihood": "gaussian",
+      "AT": false,
+      "M": 1,
+      "region": "inside",
+      "mean_MSE": 7.525252819061279,
+      "within": 12.478769302368164,
+      "between": 0.0
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": false,
+      "M": 1,
+      "region": "outside",
+      "mean_MSE": 4607.30224609375,
+      "within": 26.693876266479492,
+      "between": 0.0
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": false,
+      "M": 6,
+      "region": "inside",
+      "mean_MSE": 13.169081687927246,
+      "within": 24.382598876953125,
+      "between": 8.842098236083984
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": false,
+      "M": 6,
+      "region": "outside",
+      "mean_MSE": 4953.1884765625,
+      "within": 61.44691467285156,
+      "between": 150.82455444335938
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": true,
+      "M": 1,
+      "region": "inside",
+      "mean_MSE": 7.976630210876465,
+      "within": 8.261199951171875,
+      "between": 0.0
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": true,
+      "M": 1,
+      "region": "outside",
+      "mean_MSE": 4554.02587890625,
+      "within": 23.919288635253906,
+      "between": 0.0
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": true,
+      "M": 6,
+      "region": "inside",
+      "mean_MSE": 14.328709602355957,
+      "within": 34.04039001464844,
+      "between": 12.837808609008789
+    },
+    {
+      "likelihood": "gaussian",
+      "AT": true,
+      "M": 6,
+      "region": "outside",
+      "mean_MSE": 5385.0595703125,
+      "within": 84.28025817871094,
+      "between": 218.0901336669922
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": false,
+      "M": 1,
+      "region": "inside",
+      "mean_MSE": 8.455694198608398,
+      "within": 10.474091529846191,
+      "between": 0.0
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": false,
+      "M": 1,
+      "region": "outside",
+      "mean_MSE": 3903.52392578125,
+      "within": 34.18648910522461,
+      "between": 0.0
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": false,
+      "M": 6,
+      "region": "inside",
+      "mean_MSE": 13.792290687561035,
+      "within": 23.00205421447754,
+      "between": 43.00474548339844
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": false,
+      "M": 6,
+      "region": "outside",
+      "mean_MSE": 4639.880859375,
+      "within": 48.78618621826172,
+      "between": 522.8753662109375
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": true,
+      "M": 1,
+      "region": "inside",
+      "mean_MSE": 6.967976093292236,
+      "within": 11.39837646484375,
+      "between": 0.0
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": true,
+      "M": 1,
+      "region": "outside",
+      "mean_MSE": 3852.419921875,
+      "within": 34.2149772644043,
+      "between": 0.0
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": true,
+      "M": 6,
+      "region": "inside",
+      "mean_MSE": 5.345615386962891,
+      "within": 13.314620971679688,
+      "between": 2.5500712394714355
+    },
+    {
+      "likelihood": "laplacian",
+      "AT": true,
+      "M": 6,
+      "region": "outside",
+      "mean_MSE": 3443.36083984375,
+      "within": 40.18453598022461,
+      "between": 71.5848388671875
+    }
+  ],
+  "classification": [
+    {
+      "AT": false,
+      "M": 1,
+      "accuracy": 0.9426666498184204,
+      "NLL": 0.17147523164749146,
+      "parameters": 23553,
+      "updates_per_member": 300,
+      "total_inside": 0.1653446005152169,
+      "total_outside": 0.014369076847914308,
+      "disagreement_inside": 0.0,
+      "disagreement_outside": 0.0,
+      "low_outside_xy": [
+        -2.0,
+        1.100000023841858
+      ],
+      "low_outside_entropy": -0.0,
+      "high_total_xy": [
+        0.0,
+        0.0
+      ],
+      "high_total": 1.0767304565059834,
+      "high_total_member_entropy": 1.0767304565059834,
+      "high_total_disagreement": 0.0,
+      "max_disagreement_xy": [
+        -2.0,
+        -2.0
+      ],
+      "max_disagreement": 0.0
+    },
+    {
+      "AT": false,
+      "M": 4,
+      "accuracy": 0.9469999670982361,
+      "NLL": 0.16263848543167114,
+      "parameters": 94212,
+      "updates_per_member": 300,
+      "total_inside": 0.20578071485938393,
+      "total_outside": 0.08083075459982335,
+      "disagreement_inside": 0.02887811390594401,
+      "disagreement_outside": 0.06440812670887738,
+      "low_outside_xy": [
+        -2.0,
+        1.100000023841858
+      ],
+      "low_outside_entropy": -0.0,
+      "high_total_xy": [
+        0.0,
+        0.0
+      ],
+      "high_total": 1.0785177030761384,
+      "high_total_member_entropy": 1.06261996601657,
+      "high_total_disagreement": 0.015897737059568318,
+      "max_disagreement_xy": [
+        -1.7000000476837158,
+        -0.6000000238418579
+      ],
+      "max_disagreement": 0.6899835141867635
+    },
+    {
+      "AT": true,
+      "M": 1,
+      "accuracy": 0.8963333368301392,
+      "NLL": 0.26672959327697754,
+      "parameters": 23553,
+      "updates_per_member": 300,
+      "total_inside": 0.2583240612738691,
+      "total_outside": 0.09674282066403046,
+      "disagreement_inside": 0.0,
+      "disagreement_outside": 0.0,
+      "low_outside_xy": [
+        -2.0,
+        0.75
+      ],
+      "low_outside_entropy": -0.0,
+      "high_total_xy": [
+        -0.6499999761581421,
+        -0.5
+      ],
+      "high_total": 1.0980734783759885,
+      "high_total_member_entropy": 1.0980734783759885,
+      "high_total_disagreement": 0.0,
+      "max_disagreement_xy": [
+        -2.0,
+        -2.0
+      ],
+      "max_disagreement": 0.0
+    },
+    {
+      "AT": true,
+      "M": 4,
+      "accuracy": 0.9473333358764648,
+      "NLL": 0.18270210921764374,
+      "parameters": 94212,
+      "updates_per_member": 300,
+      "total_inside": 0.2842383566101533,
+      "total_outside": 0.12389905630723075,
+      "disagreement_inside": 0.054305178815131604,
+      "disagreement_outside": 0.08581427678752201,
+      "low_outside_xy": [
+        -2.0,
+        0.75
+      ],
+      "low_outside_entropy": -0.0,
+      "high_total_xy": [
+        0.0,
+        0.0
+      ],
+      "high_total": 1.096339911270511,
+      "high_total_member_entropy": 1.0745224477386222,
+      "high_total_disagreement": 0.021817463531888848,
+      "max_disagreement_xy": [
+        1.649999976158142,
+        2.0
+      ],
+      "max_disagreement": 0.6931467086842193
+    }
+  ]
+}
