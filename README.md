@@ -2,7 +2,7 @@
 
 Ways to estimate how uncertain a neural network is, implemented from scratch in **JAX**: maximum-likelihood noise models, **Variational Inference (Bayes by Backprop)**, **Deep Ensembles** with adversarial training, and **MIMO** multi-head ensembles. I tested them on toy regression and classification problems and on MNIST.
 
-> Practical assignment for **DD2412 Deep Learning, Advanced Course** at KTH Royal Institute of Technology. The course provided the notebook scaffolding and the toy datasets. I wrote the derivations, the model, loss and training code, the experiments and the analysis.
+> Notebook scaffolding and toy datasets: KTH Royal Institute of Technology. I wrote the derivations, the model, loss and training code, the experiments and the analysis.
 
 **Stack:** JAX 0.7.2 (`jax.numpy`, `grad`/`value_and_grad`, `jit`, `vmap`, `jax.example_libraries.optimizers`), NumPy, Matplotlib. Experiments ran on Kaggle (GPU for VI and MNIST, CPU for the toy ensembles).
 
